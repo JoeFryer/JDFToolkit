@@ -11,8 +11,13 @@
 @interface JDFTableSection : NSObject
 
 @property (nonatomic, strong) NSString *header;
-@property (nonatomic, strong) NSMutableArray *rows;
+@property (nonatomic, strong) NSArray *rows;
 
+#pragma mark - Init
+- (id)initWithHeader:(NSString *)header;
+- (id)initWithHeader:(NSString *)header rows:(NSArray *)rows;
+
+#pragma mark - Convenience
 - (NSInteger)rowsCount;
 
 @end
