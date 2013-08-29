@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D81AC41117CF5EB000C90D88 /* UIToolbar+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = D81AC41017CF5EB000C90D88 /* UIToolbar+JDFToolkit.m */; };
 		D882272217CE5823009348FE /* JDFProjectUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D882272117CE5823009348FE /* JDFProjectUtilities.m */; };
 		F21EBE4D17C6C1C9006774C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21EBE4C17C6C1C9006774C6 /* UIKit.framework */; };
 		F21EBE4F17C6C1C9006774C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21EBE4E17C6C1C9006774C6 /* Foundation.framework */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D81AC40F17CF5EB000C90D88 /* UIToolbar+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+JDFToolkit.h"; path = "Categories/UIToolbar+JDFToolkit.h"; sourceTree = "<group>"; };
+		D81AC41017CF5EB000C90D88 /* UIToolbar+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+JDFToolkit.m"; path = "Categories/UIToolbar+JDFToolkit.m"; sourceTree = "<group>"; };
 		D882272017CE5823009348FE /* JDFProjectUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFProjectUtilities.h; sourceTree = "<group>"; };
 		D882272117CE5823009348FE /* JDFProjectUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFProjectUtilities.m; sourceTree = "<group>"; };
 		F21EBE4917C6C1C9006774C6 /* JDFToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDFToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +148,8 @@
 		F21EBE7117C73F90006774C6 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				D81AC40F17CF5EB000C90D88 /* UIToolbar+JDFToolkit.h */,
+				D81AC41017CF5EB000C90D88 /* UIToolbar+JDFToolkit.m */,
 				F21EBE7217C7403A006774C6 /* UITextField+JDFToolkit.h */,
 				F21EBE7317C7403A006774C6 /* UITextField+JDFToolkit.m */,
 			);
@@ -223,6 +228,7 @@
 				F21EBE7017C6C453006774C6 /* JDFTableItem.m in Sources */,
 				F21EBE7417C7403A006774C6 /* UITextField+JDFToolkit.m in Sources */,
 				D882272217CE5823009348FE /* JDFProjectUtilities.m in Sources */,
+				D81AC41117CF5EB000C90D88 /* UIToolbar+JDFToolkit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
