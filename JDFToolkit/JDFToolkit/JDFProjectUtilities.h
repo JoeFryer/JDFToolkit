@@ -10,4 +10,12 @@
 
 @interface JDFProjectUtilities : NSObject
 
+#pragma mark - Version Numbers
++ (NSString *)appVersion;
++ (NSString *)appBuildNumber;
++ (NSString *)appFullVersionAndBuildNumber;
+
+#pragma mark - App Name
++ (NSString *)appName;
+
 @end
