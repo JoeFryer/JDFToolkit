@@ -10,4 +10,6 @@
 
 @interface UIToolbar (JDFToolkit)
 
++ (UIToolbar *)keyboardInputAccessoryToolbar;
+
 @end
