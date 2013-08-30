@@ -21,6 +21,7 @@
 		F21EBE6D17C6C3AC006774C6 /* JDFTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F21EBE6C17C6C3AC006774C6 /* JDFTableSection.m */; };
 		F21EBE7017C6C453006774C6 /* JDFTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F21EBE6F17C6C453006774C6 /* JDFTableItem.m */; };
 		F21EBE7417C7403A006774C6 /* UITextField+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F21EBE7317C7403A006774C6 /* UITextField+JDFToolkit.m */; };
+		F2DBF34717D161FA008FF27F /* NSDate+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DBF34617D161FA008FF27F /* NSDate+JDFToolkit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		F21EBE6F17C6C453006774C6 /* JDFTableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDFTableItem.m; path = Classes/JDFTableItem.m; sourceTree = "<group>"; };
 		F21EBE7217C7403A006774C6 /* UITextField+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+JDFToolkit.h"; path = "Categories/UITextField+JDFToolkit.h"; sourceTree = "<group>"; };
 		F21EBE7317C7403A006774C6 /* UITextField+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+JDFToolkit.m"; path = "Categories/UITextField+JDFToolkit.m"; sourceTree = "<group>"; };
+		F2DBF34517D161FA008FF27F /* NSDate+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+JDFToolkit.h"; path = "Categories/NSDate+JDFToolkit.h"; sourceTree = "<group>"; };
+		F2DBF34617D161FA008FF27F /* NSDate+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+JDFToolkit.m"; path = "Categories/NSDate+JDFToolkit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,8 @@
 		F21EBE7117C73F90006774C6 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				F2DBF34517D161FA008FF27F /* NSDate+JDFToolkit.h */,
+				F2DBF34617D161FA008FF27F /* NSDate+JDFToolkit.m */,
 				D81AC40F17CF5EB000C90D88 /* UIToolbar+JDFToolkit.h */,
 				D81AC41017CF5EB000C90D88 /* UIToolbar+JDFToolkit.m */,
 				F21EBE7217C7403A006774C6 /* UITextField+JDFToolkit.h */,
@@ -229,6 +234,7 @@
 				F21EBE7417C7403A006774C6 /* UITextField+JDFToolkit.m in Sources */,
 				D882272217CE5823009348FE /* JDFProjectUtilities.m in Sources */,
 				D81AC41117CF5EB000C90D88 /* UIToolbar+JDFToolkit.m in Sources */,
+				F2DBF34717D161FA008FF27F /* NSDate+JDFToolkit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
