@@ -49,4 +49,34 @@
     return self.rows.count;
 }
 
+- (BOOL)addTableItemsWithTitles:(NSArray *)titles cellType:(JDFCellType)cellType
+{
+    NSArray *newTableItems = [JDFTableSection arrayOfTableItemsWithTitles:titles cellType:cellType];
+    if (newTableItems) {
+        NSMutableArray *tableItems = [self.rows mutableCopy];
+        [tableItems addObjectsFromArray:newTableItems];
+        self.rows = [NSArray arrayWithArray:tableItems];
+        return YES;
+    } else {
+        return NO;
+    }
+}
+
+
+#pragma mark - Class Methods
+
++ (NSArray *)arrayOfTableItemsWithTitles:(NSArray *)titles cellType:(JDFCellType)cellType
+{
+    NSMutableArray *tableItems = [[NSMutableArray alloc] init];
+    for (id obj in titles) {
+        if ([obj isKindOfClass:[NSString class]]) {
+            JDFTableItem *tableItem = [[JDFTableItem alloc] initWithTitle:(NSString *)obj cellType:cellType];
+            [tableItems addObject:tableItem];
+        } else {
+            return nil;
+        }
+    }
+    return [NSArray arrayWithArray:tableItems];
+}
+
 @end
