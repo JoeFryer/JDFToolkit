@@ -9,18 +9,19 @@
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSInteger, JDFCellType) {
-    cellTypeDisplayData = 0,
-    cellTypeActionCell,
-    cellTypeMultiChoice,
-    cellTypeDataInput,
-    cellTypeNote,
-    cellTypeMaintainParameter,
-    cellTypeSegue
+    JDFCellTypeDisplayData,
+    JDFCellTypeActionCell,
+    JDFCellTypeMultiChoice,
+    JDFCellTypeDataInput,
+    JDFCellTypeNote,
+    JDFCellTypeMaintainParameter,
+    JDFCellTypeSegue
 };
 
 @interface JDFTableItem : NSObject
 
 @property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSString *value;
 @property (nonatomic) JDFCellType cellType;
 
 - (id)initWithTitle:(NSString *)title cellType:(JDFCellType)cellType;
