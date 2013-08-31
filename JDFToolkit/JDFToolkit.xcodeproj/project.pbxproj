@@ -22,7 +22,29 @@
 		F21EBE7017C6C453006774C6 /* JDFTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F21EBE6F17C6C453006774C6 /* JDFTableItem.m */; };
 		F21EBE7417C7403A006774C6 /* UITextField+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F21EBE7317C7403A006774C6 /* UITextField+JDFToolkit.m */; };
 		F2DBF34717D161FA008FF27F /* NSDate+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DBF34617D161FA008FF27F /* NSDate+JDFToolkit.m */; };
+		F2DBF39217D1E1E4008FF27F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21EBE4E17C6C1C9006774C6 /* Foundation.framework */; };
+		F2DBF39717D1E1E4008FF27F /* JDFToolkitStaticLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F2DBF39617D1E1E4008FF27F /* JDFToolkitStaticLibrary.h */; };
+		F2DBF39917D1E1E4008FF27F /* JDFToolkitStaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DBF39817D1E1E4008FF27F /* JDFToolkitStaticLibrary.m */; };
+		F2DBF39D17D1E279008FF27F /* JDFProjectUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D882272117CE5823009348FE /* JDFProjectUtilities.m */; };
+		F2DBF39E17D1E281008FF27F /* JDFTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F21EBE6C17C6C3AC006774C6 /* JDFTableSection.m */; };
+		F2DBF39F17D1E283008FF27F /* JDFTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F21EBE6F17C6C453006774C6 /* JDFTableItem.m */; };
+		F2DBF3A017D1E285008FF27F /* NSDate+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DBF34617D161FA008FF27F /* NSDate+JDFToolkit.m */; };
+		F2DBF3A117D1E289008FF27F /* UIToolbar+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = D81AC41017CF5EB000C90D88 /* UIToolbar+JDFToolkit.m */; };
+		F2DBF3A217D1E28B008FF27F /* UITextField+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F21EBE7317C7403A006774C6 /* UITextField+JDFToolkit.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F2DBF38F17D1E1E4008FF27F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				F2DBF39717D1E1E4008FF27F /* JDFToolkitStaticLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D81AC40F17CF5EB000C90D88 /* UIToolbar+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+JDFToolkit.h"; path = "Categories/UIToolbar+JDFToolkit.h"; sourceTree = "<group>"; };
@@ -50,6 +72,10 @@
 		F21EBE7317C7403A006774C6 /* UITextField+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+JDFToolkit.m"; path = "Categories/UITextField+JDFToolkit.m"; sourceTree = "<group>"; };
 		F2DBF34517D161FA008FF27F /* NSDate+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+JDFToolkit.h"; path = "Categories/NSDate+JDFToolkit.h"; sourceTree = "<group>"; };
 		F2DBF34617D161FA008FF27F /* NSDate+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+JDFToolkit.m"; path = "Categories/NSDate+JDFToolkit.m"; sourceTree = "<group>"; };
+		F2DBF39117D1E1E4008FF27F /* libJDFToolkitStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJDFToolkitStaticLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DBF39517D1E1E4008FF27F /* JDFToolkitStaticLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JDFToolkitStaticLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		F2DBF39617D1E1E4008FF27F /* JDFToolkitStaticLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDFToolkitStaticLibrary.h; sourceTree = "<group>"; };
+		F2DBF39817D1E1E4008FF27F /* JDFToolkitStaticLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDFToolkitStaticLibrary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +86,14 @@
 				F21EBE4D17C6C1C9006774C6 /* UIKit.framework in Frameworks */,
 				F21EBE4F17C6C1C9006774C6 /* Foundation.framework in Frameworks */,
 				F21EBE5117C6C1C9006774C6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DBF38E17D1E1E4008FF27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DBF39217D1E1E4008FF27F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				F21EBE5217C6C1C9006774C6 /* JDFToolkit */,
+				F2DBF39317D1E1E4008FF27F /* JDFToolkitStaticLibrary */,
 				F21EBE4B17C6C1C9006774C6 /* Frameworks */,
 				F21EBE4A17C6C1C9006774C6 /* Products */,
 			);
@@ -88,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				F21EBE4917C6C1C9006774C6 /* JDFToolkit.app */,
+				F2DBF39117D1E1E4008FF27F /* libJDFToolkitStaticLibrary.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,6 +197,24 @@
 			name = Categories;
 			sourceTree = "<group>";
 		};
+		F2DBF39317D1E1E4008FF27F /* JDFToolkitStaticLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				F2DBF39617D1E1E4008FF27F /* JDFToolkitStaticLibrary.h */,
+				F2DBF39817D1E1E4008FF27F /* JDFToolkitStaticLibrary.m */,
+				F2DBF39417D1E1E4008FF27F /* Supporting Files */,
+			);
+			path = JDFToolkitStaticLibrary;
+			sourceTree = "<group>";
+		};
+		F2DBF39417D1E1E4008FF27F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2DBF39517D1E1E4008FF27F /* JDFToolkitStaticLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,6 +234,23 @@
 			productName = JDFToolkit;
 			productReference = F21EBE4917C6C1C9006774C6 /* JDFToolkit.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F2DBF39017D1E1E4008FF27F /* JDFToolkitStaticLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DBF39C17D1E1E4008FF27F /* Build configuration list for PBXNativeTarget "JDFToolkitStaticLibrary" */;
+			buildPhases = (
+				F2DBF38D17D1E1E4008FF27F /* Sources */,
+				F2DBF38E17D1E1E4008FF27F /* Frameworks */,
+				F2DBF38F17D1E1E4008FF27F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDFToolkitStaticLibrary;
+			productName = JDFToolkitStaticLibrary;
+			productReference = F2DBF39117D1E1E4008FF27F /* libJDFToolkitStaticLibrary.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -204,6 +275,7 @@
 			projectRoot = "";
 			targets = (
 				F21EBE4817C6C1C9006774C6 /* JDFToolkit */,
+				F2DBF39017D1E1E4008FF27F /* JDFToolkitStaticLibrary */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +307,20 @@
 				D882272217CE5823009348FE /* JDFProjectUtilities.m in Sources */,
 				D81AC41117CF5EB000C90D88 /* UIToolbar+JDFToolkit.m in Sources */,
 				F2DBF34717D161FA008FF27F /* NSDate+JDFToolkit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DBF38D17D1E1E4008FF27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DBF39917D1E1E4008FF27F /* JDFToolkitStaticLibrary.m in Sources */,
+				F2DBF39D17D1E279008FF27F /* JDFProjectUtilities.m in Sources */,
+				F2DBF39E17D1E281008FF27F /* JDFTableSection.m in Sources */,
+				F2DBF39F17D1E283008FF27F /* JDFTableItem.m in Sources */,
+				F2DBF3A017D1E285008FF27F /* NSDate+JDFToolkit.m in Sources */,
+				F2DBF3A117D1E289008FF27F /* UIToolbar+JDFToolkit.m in Sources */,
+				F2DBF3A217D1E28B008FF27F /* UITextField+JDFToolkit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +416,30 @@
 			};
 			name = Release;
 		};
+		F2DBF39A17D1E1E4008FF27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/JDFToolkitStaticLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JDFToolkitStaticLibrary/JDFToolkitStaticLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F2DBF39B17D1E1E4008FF27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/JDFToolkitStaticLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JDFToolkitStaticLibrary/JDFToolkitStaticLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -350,6 +460,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F2DBF39C17D1E1E4008FF27F /* Build configuration list for PBXNativeTarget "JDFToolkitStaticLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DBF39A17D1E1E4008FF27F /* Debug */,
+				F2DBF39B17D1E1E4008FF27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
