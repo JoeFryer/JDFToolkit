@@ -10,4 +10,11 @@
 
 @interface NSDate (JDFToolkit)
 
+- (BOOL)isEarlierThanDateIncludingTime:(NSDate *)date;
+- (BOOL)isLaterThanDateIncludingTime:(NSDate *)date;
+- (BOOL)isEarlierThanOrEqualToDateIncludingTime:(NSDate *)date;
+- (BOOL)isLaterThanOrEqualToDateIncludingTime:(NSDate *)date;
+- (BOOL)isTheSameDateAsIncludingTime:(NSDate *)date;
+- (BOOL)isTheSameDateAsIgnoringTime:(NSDate *)date;
+
 @end
