@@ -8,11 +8,25 @@
 
 #import "NSDate+JDFToolkit.h"
 
+
 @implementation NSDate (JDFToolkit)
+
+
+#pragma mark - Date Comparison
 
 - (BOOL)isEarlierThanDateIncludingTime:(NSDate *)date
 {
     NSComparisonResult comparisonResult = [self compare:date];
+    if (comparisonResult == NSOrderedAscending) {
+        return YES;
+    } else {
+        return NO;
+    }
+}
+
+- (BOOL)isEarlierThanDateIgnoringTime:(NSDate *)date
+{
+    NSComparisonResult comparisonResult = [self compareWithDateIgnoringTime:date];
     if (comparisonResult == NSOrderedAscending) {
         return YES;
     } else {
@@ -30,6 +44,16 @@
     }
 }
 
+- (BOOL)isLaterThanDateIgnoringTime:(NSDate *)date
+{
+    NSComparisonResult comparisonResult = [self compareWithDateIgnoringTime:date];
+    if (comparisonResult == NSOrderedDescending) {
+        return YES;
+    } else {
+        return NO;
+    }
+}
+
 - (BOOL)isEarlierThanOrEqualToDateIncludingTime:(NSDate *)date
 {
     NSComparisonResult comparisonResult = [self compare:date];
@@ -40,9 +64,29 @@
     }
 }
 
+- (BOOL)isEarlierThanOrEqualToDateIgnoringTime:(NSDate *)date
+{
+    NSComparisonResult comparisonResult = [self compareWithDateIgnoringTime:date];
+    if (comparisonResult == NSOrderedAscending || comparisonResult == NSOrderedSame) {
+        return YES;
+    } else {
+        return NO;
+    }
+}
+
 - (BOOL)isLaterThanOrEqualToDateIncludingTime:(NSDate *)date
 {
     NSComparisonResult comparisonResult = [self compare:date];
+    if (comparisonResult == NSOrderedDescending || comparisonResult == NSOrderedSame) {
+        return YES;
+    } else {
+        return NO;
+    }
+}
+
+- (BOOL)isLaterThanOrEqualToDateIgnorinTime:(NSDate *)date
+{
+    NSComparisonResult comparisonResult = [self compareWithDateIgnoringTime:date];
     if (comparisonResult == NSOrderedDescending || comparisonResult == NSOrderedSame) {
         return YES;
     } else {
@@ -69,6 +113,9 @@
         return NO;
     }
 }
+
+
+#pragma mark - Internal
 
 - (NSComparisonResult)compareWithDateIgnoringTime:(NSDate *)date
 {
