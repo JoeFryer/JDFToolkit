@@ -31,6 +31,7 @@
 		F2DBF3A017D1E285008FF27F /* NSDate+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DBF34617D161FA008FF27F /* NSDate+JDFToolkit.m */; };
 		F2DBF3A117D1E289008FF27F /* UIToolbar+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = D81AC41017CF5EB000C90D88 /* UIToolbar+JDFToolkit.m */; };
 		F2DBF3A217D1E28B008FF27F /* UITextField+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F21EBE7317C7403A006774C6 /* UITextField+JDFToolkit.m */; };
+		F2DEE94117D29AAE001521C8 /* JDFDateFormatterCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DEE94017D29AAE001521C8 /* JDFDateFormatterCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -76,6 +77,8 @@
 		F2DBF39517D1E1E4008FF27F /* JDFToolkitStaticLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JDFToolkitStaticLibrary-Prefix.pch"; sourceTree = "<group>"; };
 		F2DBF39617D1E1E4008FF27F /* JDFToolkitStaticLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDFToolkitStaticLibrary.h; sourceTree = "<group>"; };
 		F2DBF39817D1E1E4008FF27F /* JDFToolkitStaticLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDFToolkitStaticLibrary.m; sourceTree = "<group>"; };
+		F2DEE93F17D29AAE001521C8 /* JDFDateFormatterCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDFDateFormatterCache.h; path = Classes/JDFDateFormatterCache.h; sourceTree = "<group>"; };
+		F2DEE94017D29AAE001521C8 /* JDFDateFormatterCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDFDateFormatterCache.m; path = Classes/JDFDateFormatterCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 		D882271F17CE57FB009348FE /* General Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				F2DEE93F17D29AAE001521C8 /* JDFDateFormatterCache.h */,
+				F2DEE94017D29AAE001521C8 /* JDFDateFormatterCache.m */,
 				D882272017CE5823009348FE /* JDFProjectUtilities.h */,
 				D882272117CE5823009348FE /* JDFProjectUtilities.m */,
 			);
@@ -307,6 +312,7 @@
 				D882272217CE5823009348FE /* JDFProjectUtilities.m in Sources */,
 				D81AC41117CF5EB000C90D88 /* UIToolbar+JDFToolkit.m in Sources */,
 				F2DBF34717D161FA008FF27F /* NSDate+JDFToolkit.m in Sources */,
+				F2DEE94117D29AAE001521C8 /* JDFDateFormatterCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +474,7 @@
 				F2DBF39B17D1E1E4008FF27F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
