@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "JDFTableItem.h"
 
 
@@ -14,7 +15,10 @@
 
 @property (nonatomic, strong) NSString *header;
 @property (nonatomic, strong) NSString *footer;
+@property (nonatomic, strong) UIView *headerView;
+@property (nonatomic, strong) UIView *footerView;
 @property (nonatomic, strong) NSArray *rows;
+@property (nonatomic) NSInteger tag;
 
 #pragma mark - Init
 - (id)initWithHeader:(NSString *)header;
