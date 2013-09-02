@@ -10,4 +10,13 @@
 
 @interface JDFDateFormatterCache : NSObject
 
+#pragma mark - DateFormatters
+@property (nonatomic, strong, readonly) NSDateFormatter *dateFormatterWithShortStyle;
+@property (nonatomic, strong, readonly) NSDateFormatter *dateFormatterWithMediumStyle;
+@property (nonatomic, strong, readonly) NSDateFormatter *dateFormatterWithLongStyle;
+@property (nonatomic, strong, readonly) NSDateFormatter *dateFormatterWithFullStyle;
+
+#pragma mark - Singleton Stuff
++ (id)sharedDateFormatterCache;
+
 @end
