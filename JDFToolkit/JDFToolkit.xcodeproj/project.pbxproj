@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		F29F2CCA17D47AB7001B8263 /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F29F2CCD17D47AB7001B8263 /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				F29F2CCE17D47AD5001B8263 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Documentation;
+			productName = Documentation;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		D81AC41117CF5EB000C90D88 /* UIToolbar+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = D81AC41017CF5EB000C90D88 /* UIToolbar+JDFToolkit.m */; };
 		D882272217CE5823009348FE /* JDFProjectUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D882272117CE5823009348FE /* JDFProjectUtilities.m */; };
@@ -281,6 +295,7 @@
 			targets = (
 				F21EBE4817C6C1C9006774C6 /* JDFToolkit */,
 				F2DBF39017D1E1E4008FF27F /* JDFToolkitStaticLibrary */,
+				F29F2CCA17D47AB7001B8263 /* Documentation */,
 			);
 		};
 /* End PBXProject section */
@@ -298,6 +313,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F29F2CCE17D47AD5001B8263 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"JDF\";\ncompanyID=\"com.JDF\";\ncompanyURL=\"https://github.com/JoeFryer\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"~/help/JDFToolkit\";\n# End constants\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n\"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F21EBE4517C6C1C9006774C6 /* Sources */ = {
@@ -422,6 +453,20 @@
 			};
 			name = Release;
 		};
+		F29F2CCB17D47AB7001B8263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F29F2CCC17D47AB7001B8263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F2DBF39A17D1E1E4008FF27F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -466,6 +511,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F29F2CCD17D47AB7001B8263 /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29F2CCB17D47AB7001B8263 /* Debug */,
+				F29F2CCC17D47AB7001B8263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		F2DBF39C17D1E1E4008FF27F /* Build configuration list for PBXNativeTarget "JDFToolkitStaticLibrary" */ = {
 			isa = XCConfigurationList;
