@@ -15,7 +15,9 @@ typedef NS_ENUM(NSInteger, JDFCellType) {
     JDFCellTypeDataInput,
     JDFCellTypeNote,
     JDFCellTypeMaintainParameter,
-    JDFCellTypeSegue
+    JDFCellTypeSegue,
+    JDFCellTypeSegmentedControl,
+    JDFCellTypeMapCell
 };
 
 @interface JDFTableItem : NSObject
