@@ -22,6 +22,8 @@
 
 /* Begin PBXBuildFile section */
 		D81AC41117CF5EB000C90D88 /* UIToolbar+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = D81AC41017CF5EB000C90D88 /* UIToolbar+JDFToolkit.m */; };
+		D8792C3117D634BA00171FC1 /* JDFTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8792C3017D634BA00171FC1 /* JDFTextView.m */; };
+		D8792C3217D634BA00171FC1 /* JDFTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8792C3017D634BA00171FC1 /* JDFTextView.m */; };
 		D882272217CE5823009348FE /* JDFProjectUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D882272117CE5823009348FE /* JDFProjectUtilities.m */; };
 		F21EBE4D17C6C1C9006774C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21EBE4C17C6C1C9006774C6 /* UIKit.framework */; };
 		F21EBE4F17C6C1C9006774C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21EBE4E17C6C1C9006774C6 /* Foundation.framework */; };
@@ -64,6 +66,8 @@
 /* Begin PBXFileReference section */
 		D81AC40F17CF5EB000C90D88 /* UIToolbar+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+JDFToolkit.h"; path = "Categories/UIToolbar+JDFToolkit.h"; sourceTree = "<group>"; };
 		D81AC41017CF5EB000C90D88 /* UIToolbar+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+JDFToolkit.m"; path = "Categories/UIToolbar+JDFToolkit.m"; sourceTree = "<group>"; };
+		D8792C2F17D634BA00171FC1 /* JDFTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDFTextView.h; path = Classes/JDFTextView.h; sourceTree = "<group>"; };
+		D8792C3017D634BA00171FC1 /* JDFTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDFTextView.m; path = Classes/JDFTextView.m; sourceTree = "<group>"; };
 		D882272017CE5823009348FE /* JDFProjectUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFProjectUtilities.h; sourceTree = "<group>"; };
 		D882272117CE5823009348FE /* JDFProjectUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFProjectUtilities.m; sourceTree = "<group>"; };
 		F21EBE4917C6C1C9006774C6 /* JDFToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDFToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +121,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D8792C3317D636C000171FC1 /* UIView Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				D8792C2F17D634BA00171FC1 /* JDFTextView.h */,
+				D8792C3017D634BA00171FC1 /* JDFTextView.m */,
+			);
+			name = "UIView Stuff";
+			sourceTree = "<group>";
+		};
 		D882271F17CE57FB009348FE /* General Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +201,7 @@
 			children = (
 				D882271F17CE57FB009348FE /* General Utilities */,
 				F21EBE6A17C6C2C8006774C6 /* Table Stuff */,
+				D8792C3317D636C000171FC1 /* UIView Stuff */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -344,6 +358,7 @@
 				D81AC41117CF5EB000C90D88 /* UIToolbar+JDFToolkit.m in Sources */,
 				F2DBF34717D161FA008FF27F /* NSDate+JDFToolkit.m in Sources */,
 				F2DEE94117D29AAE001521C8 /* JDFDateFormatterCache.m in Sources */,
+				D8792C3117D634BA00171FC1 /* JDFTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +373,7 @@
 				F2DBF3A017D1E285008FF27F /* NSDate+JDFToolkit.m in Sources */,
 				F2DBF3A117D1E289008FF27F /* UIToolbar+JDFToolkit.m in Sources */,
 				F2DBF3A217D1E28B008FF27F /* UITextField+JDFToolkit.m in Sources */,
+				D8792C3217D634BA00171FC1 /* JDFTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +535,7 @@
 				F29F2CCC17D47AB7001B8263 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2DBF39C17D1E1E4008FF27F /* Build configuration list for PBXNativeTarget "JDFToolkitStaticLibrary" */ = {
 			isa = XCConfigurationList;
