@@ -37,8 +37,8 @@
 - (void)setPlaceholder:(NSString *)placeholder
 {
     _placeholder = placeholder;
-    if ([self.text isEqualToString:@""]) {
-        self.text = self.placeholder;
+    if ([super.text isEqualToString:@""]) {
+        super.text = self.placeholder;
         self.placeholderIsVisible = YES;
     }
 }
@@ -54,6 +54,15 @@
     }
 }
 
+- (void)setText:(NSString *)text
+{
+    if ([text isEqualToString:@""]) {
+        [super setText:self.placeholder];
+        self.placeholderIsVisible = YES;
+    } else {
+        [super setText:text];
+    }
+}
 
 #pragma mark - Getters
 
@@ -75,15 +84,15 @@
 - (void)textDidBeginEditing:(NSNotification *)notification
 {
     if (self.placeholderIsVisible) {
-        self.text = @"";
+        super.text = @"";
         self.placeholderIsVisible = NO;
     }
 }
 
 - (void)textDidEndEditing:(NSNotification *)notification
 {
-    if ([self.text isEqualToString:@""]) {
-        self.text = self.placeholder;
+    if ([super.text isEqualToString:@""]) {
+        super.text = self.placeholder;
         self.placeholderIsVisible = YES;
     }
 }
@@ -119,8 +128,8 @@
         self.placeholderColor = [UIColor grayColor];
     }
     
-    if ([self.text isEqualToString:@""]) {
-        self.text = self.placeholder;
+    if ([super.text isEqualToString:@""]) {
+        super.text = self.placeholder;
         self.placeholderIsVisible = YES;
     } else {
         self.placeholderIsVisible = NO;
