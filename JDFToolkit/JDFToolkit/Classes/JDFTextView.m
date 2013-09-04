@@ -55,6 +55,21 @@
 }
 
 
+#pragma mark - Getters
+
+/*
+ If the user requests the text from us, we don't want to return the placeholder string, if that is what is displaying!
+ */
+- (NSString *)text
+{
+    if (self.placeholderIsVisible) {
+        return @"";
+    } else {
+        return [super text];
+    }
+}
+
+
 #pragma mark - Notification Receivers
 
 - (void)textDidBeginEditing:(NSNotification *)notification
