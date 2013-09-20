@@ -14,4 +14,6 @@
 
 + (MKCoordinateRegion)regionForDisplayingCoordinateA:(CLLocationCoordinate2D)coordinateA andCoordinateB:(CLLocationCoordinate2D)coordinateB;
 
++ (MKCoordinateRegion)regionForDisplayingMapItems:(NSArray *)mapItems;
+
 @end
