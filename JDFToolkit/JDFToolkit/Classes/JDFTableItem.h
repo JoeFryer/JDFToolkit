@@ -22,7 +22,8 @@ typedef NS_ENUM(NSInteger, JDFCellType) {
     JDFCellTypeSmallHeaderCell,
     JDFCellTypeExtendedDataEntry,
     JDFCellTypeDateInput,
-    JDFCellTypeSliderControl
+    JDFCellTypeSliderControl,
+    JDFCellTypeCurrencyEntry
 };
 
 @interface JDFTableItem : NSObject
