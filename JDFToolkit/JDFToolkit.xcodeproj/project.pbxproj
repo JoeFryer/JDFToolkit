@@ -27,6 +27,7 @@
 		D8792C3117D634BA00171FC1 /* JDFTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8792C3017D634BA00171FC1 /* JDFTextView.m */; };
 		D8792C3217D634BA00171FC1 /* JDFTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8792C3017D634BA00171FC1 /* JDFTextView.m */; };
 		D882272217CE5823009348FE /* JDFProjectUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D882272117CE5823009348FE /* JDFProjectUtilities.m */; };
+		D89D48CA1808215C00329229 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89D48C91808215C00329229 /* CoreLocation.framework */; };
 		F21EBE4D17C6C1C9006774C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21EBE4C17C6C1C9006774C6 /* UIKit.framework */; };
 		F21EBE4F17C6C1C9006774C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21EBE4E17C6C1C9006774C6 /* Foundation.framework */; };
 		F21EBE5117C6C1C9006774C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21EBE5017C6C1C9006774C6 /* CoreGraphics.framework */; };
@@ -74,6 +75,7 @@
 		D8792C3017D634BA00171FC1 /* JDFTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDFTextView.m; path = Classes/JDFTextView.m; sourceTree = "<group>"; };
 		D882272017CE5823009348FE /* JDFProjectUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFProjectUtilities.h; sourceTree = "<group>"; };
 		D882272117CE5823009348FE /* JDFProjectUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFProjectUtilities.m; sourceTree = "<group>"; };
+		D89D48C91808215C00329229 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F21EBE4917C6C1C9006774C6 /* JDFToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDFToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21EBE4C17C6C1C9006774C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F21EBE4E17C6C1C9006774C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -108,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D89D48CA1808215C00329229 /* CoreLocation.framework in Frameworks */,
 				F21EBE4D17C6C1C9006774C6 /* UIKit.framework in Frameworks */,
 				F21EBE4F17C6C1C9006774C6 /* Foundation.framework in Frameworks */,
 				F21EBE5117C6C1C9006774C6 /* CoreGraphics.framework in Frameworks */,
@@ -176,6 +179,7 @@
 		F21EBE4B17C6C1C9006774C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D89D48C91808215C00329229 /* CoreLocation.framework */,
 				F21EBE4C17C6C1C9006774C6 /* UIKit.framework */,
 				F21EBE4E17C6C1C9006774C6 /* Foundation.framework */,
 				F21EBE5017C6C1C9006774C6 /* CoreGraphics.framework */,
