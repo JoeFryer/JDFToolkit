@@ -470,6 +470,7 @@
 		F21EBE6717C6C1C9006774C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JDFToolkit/JDFToolkit-Prefix.pch";
 				INFOPLIST_FILE = "JDFToolkit/JDFToolkit-Info.plist";
@@ -481,6 +482,7 @@
 		F21EBE6817C6C1C9006774C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JDFToolkit/JDFToolkit-Prefix.pch";
 				INFOPLIST_FILE = "JDFToolkit/JDFToolkit-Info.plist";
