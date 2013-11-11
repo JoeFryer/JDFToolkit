@@ -28,6 +28,8 @@
 		D8792C3217D634BA00171FC1 /* JDFTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8792C3017D634BA00171FC1 /* JDFTextView.m */; };
 		D882272217CE5823009348FE /* JDFProjectUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D882272117CE5823009348FE /* JDFProjectUtilities.m */; };
 		D89D48CA1808215C00329229 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89D48C91808215C00329229 /* CoreLocation.framework */; };
+		D8D8612518313A8C00E6A59B /* UILabel+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D8612418313A8C00E6A59B /* UILabel+JDFToolkit.m */; };
+		D8D8612618313A8C00E6A59B /* UILabel+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D8612418313A8C00E6A59B /* UILabel+JDFToolkit.m */; };
 		F21EBE4D17C6C1C9006774C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21EBE4C17C6C1C9006774C6 /* UIKit.framework */; };
 		F21EBE4F17C6C1C9006774C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21EBE4E17C6C1C9006774C6 /* Foundation.framework */; };
 		F21EBE5117C6C1C9006774C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21EBE5017C6C1C9006774C6 /* CoreGraphics.framework */; };
@@ -76,6 +78,8 @@
 		D882272017CE5823009348FE /* JDFProjectUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFProjectUtilities.h; sourceTree = "<group>"; };
 		D882272117CE5823009348FE /* JDFProjectUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFProjectUtilities.m; sourceTree = "<group>"; };
 		D89D48C91808215C00329229 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D8D8612318313A8C00E6A59B /* UILabel+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+JDFToolkit.h"; path = "Categories/UILabel+JDFToolkit.h"; sourceTree = "<group>"; };
+		D8D8612418313A8C00E6A59B /* UILabel+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+JDFToolkit.m"; path = "Categories/UILabel+JDFToolkit.m"; sourceTree = "<group>"; };
 		F21EBE4917C6C1C9006774C6 /* JDFToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDFToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21EBE4C17C6C1C9006774C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F21EBE4E17C6C1C9006774C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -244,6 +248,8 @@
 				D81AC41017CF5EB000C90D88 /* UIToolbar+JDFToolkit.m */,
 				F21EBE7217C7403A006774C6 /* UITextField+JDFToolkit.h */,
 				F21EBE7317C7403A006774C6 /* UITextField+JDFToolkit.m */,
+				D8D8612318313A8C00E6A59B /* UILabel+JDFToolkit.h */,
+				D8D8612418313A8C00E6A59B /* UILabel+JDFToolkit.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -377,6 +383,7 @@
 				F2DBF34717D161FA008FF27F /* NSDate+JDFToolkit.m in Sources */,
 				F2DEE94117D29AAE001521C8 /* JDFDateFormatterCache.m in Sources */,
 				D8792C3117D634BA00171FC1 /* JDFTextView.m in Sources */,
+				D8D8612518313A8C00E6A59B /* UILabel+JDFToolkit.m in Sources */,
 				D823B3B917DA34B5001DCFB2 /* JDFLocationUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +396,7 @@
 				F2DBF39D17D1E279008FF27F /* JDFProjectUtilities.m in Sources */,
 				F2DBF39E17D1E281008FF27F /* JDFTableSection.m in Sources */,
 				F2DBF39F17D1E283008FF27F /* JDFTableItem.m in Sources */,
+				D8D8612618313A8C00E6A59B /* UILabel+JDFToolkit.m in Sources */,
 				F2DBF3A017D1E285008FF27F /* NSDate+JDFToolkit.m in Sources */,
 				F2DBF3A117D1E289008FF27F /* UIToolbar+JDFToolkit.m in Sources */,
 				F2DBF3A217D1E28B008FF27F /* UITextField+JDFToolkit.m in Sources */,
