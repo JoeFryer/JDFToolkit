@@ -12,5 +12,6 @@
 
 - (void)configureAsEmailField;
 - (void)configureAsNameEntryField;
+- (void)configureAsTelephoneNumberEntryField;
 
 @end

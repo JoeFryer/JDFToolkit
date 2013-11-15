@@ -22,4 +22,9 @@
     self.autocapitalizationType = UITextAutocapitalizationTypeWords;
 }
 
+- (void)configureAsTelephoneNumberEntryField
+{
+    self.keyboardType = UIKeyboardTypePhonePad;
+}
+
 @end
