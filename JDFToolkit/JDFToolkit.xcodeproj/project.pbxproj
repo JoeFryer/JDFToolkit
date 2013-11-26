@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		D80D89691843C01500C2BE1D /* UIView+JDFGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D89681843C01500C2BE1D /* UIView+JDFGeometry.m */; };
+		D80D896A1843C01600C2BE1D /* UIView+JDFGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D89681843C01500C2BE1D /* UIView+JDFGeometry.m */; };
 		D81AC41117CF5EB000C90D88 /* UIToolbar+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = D81AC41017CF5EB000C90D88 /* UIToolbar+JDFToolkit.m */; };
 		D823B3B917DA34B5001DCFB2 /* JDFLocationUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D823B3B817DA34B5001DCFB2 /* JDFLocationUtilities.m */; };
 		D823B3BA17DA34B5001DCFB2 /* JDFLocationUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D823B3B817DA34B5001DCFB2 /* JDFLocationUtilities.m */; };
@@ -68,6 +70,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D80D89671843C01500C2BE1D /* UIView+JDFGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+JDFGeometry.h"; path = "Categories/UIView+JDFGeometry.h"; sourceTree = "<group>"; };
+		D80D89681843C01500C2BE1D /* UIView+JDFGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+JDFGeometry.m"; path = "Categories/UIView+JDFGeometry.m"; sourceTree = "<group>"; };
 		D81AC40F17CF5EB000C90D88 /* UIToolbar+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+JDFToolkit.h"; path = "Categories/UIToolbar+JDFToolkit.h"; sourceTree = "<group>"; };
 		D81AC41017CF5EB000C90D88 /* UIToolbar+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+JDFToolkit.m"; path = "Categories/UIToolbar+JDFToolkit.m"; sourceTree = "<group>"; };
 		D823B3B717DA34B5001DCFB2 /* JDFLocationUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDFLocationUtilities.h; path = Classes/JDFLocationUtilities.h; sourceTree = "<group>"; };
@@ -247,6 +251,8 @@
 				D81AC41017CF5EB000C90D88 /* UIToolbar+JDFToolkit.m */,
 				F21EBE7217C7403A006774C6 /* UITextField+JDFToolkit.h */,
 				F21EBE7317C7403A006774C6 /* UITextField+JDFToolkit.m */,
+				D80D89671843C01500C2BE1D /* UIView+JDFGeometry.h */,
+				D80D89681843C01500C2BE1D /* UIView+JDFGeometry.m */,
 				D8D8612318313A8C00E6A59B /* UILabel+JDFToolkit.h */,
 				D8D8612418313A8C00E6A59B /* UILabel+JDFToolkit.m */,
 			);
@@ -383,6 +389,7 @@
 				D8792C3117D634BA00171FC1 /* JDFTextView.m in Sources */,
 				D8D8612518313A8C00E6A59B /* UILabel+JDFToolkit.m in Sources */,
 				D823B3B917DA34B5001DCFB2 /* JDFLocationUtilities.m in Sources */,
+				D80D89691843C01500C2BE1D /* UIView+JDFGeometry.m in Sources */,
 				D83FB9AF1834CC9D005EF0D9 /* JDFProjectUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +401,7 @@
 				F2DBF39917D1E1E4008FF27F /* JDFToolkitStaticLibrary.m in Sources */,
 				F2DBF39E17D1E281008FF27F /* JDFTableSection.m in Sources */,
 				F2DBF39F17D1E283008FF27F /* JDFTableItem.m in Sources */,
+				D80D896A1843C01600C2BE1D /* UIView+JDFGeometry.m in Sources */,
 				D8D8612618313A8C00E6A59B /* UILabel+JDFToolkit.m in Sources */,
 				F2DBF3A017D1E285008FF27F /* NSDate+JDFToolkit.m in Sources */,
 				F2DBF3A117D1E289008FF27F /* UIToolbar+JDFToolkit.m in Sources */,
