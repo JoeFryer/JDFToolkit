@@ -44,6 +44,7 @@
 		F21EBE6D17C6C3AC006774C6 /* JDFTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F21EBE6C17C6C3AC006774C6 /* JDFTableSection.m */; };
 		F21EBE7017C6C453006774C6 /* JDFTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F21EBE6F17C6C453006774C6 /* JDFTableItem.m */; };
 		F21EBE7417C7403A006774C6 /* UITextField+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F21EBE7317C7403A006774C6 /* UITextField+JDFToolkit.m */; };
+		F255A47C184E17630084E7DA /* NSObject+JDFBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = F255A47B184E17630084E7DA /* NSObject+JDFBlocks.m */; };
 		F2DBF34717D161FA008FF27F /* NSDate+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DBF34617D161FA008FF27F /* NSDate+JDFToolkit.m */; };
 		F2DBF39217D1E1E4008FF27F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21EBE4E17C6C1C9006774C6 /* Foundation.framework */; };
 		F2DBF39717D1E1E4008FF27F /* JDFToolkitStaticLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F2DBF39617D1E1E4008FF27F /* JDFToolkitStaticLibrary.h */; };
@@ -102,6 +103,8 @@
 		F21EBE6F17C6C453006774C6 /* JDFTableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDFTableItem.m; path = Classes/JDFTableItem.m; sourceTree = "<group>"; };
 		F21EBE7217C7403A006774C6 /* UITextField+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+JDFToolkit.h"; path = "Categories/UITextField+JDFToolkit.h"; sourceTree = "<group>"; };
 		F21EBE7317C7403A006774C6 /* UITextField+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+JDFToolkit.m"; path = "Categories/UITextField+JDFToolkit.m"; sourceTree = "<group>"; };
+		F255A47A184E17630084E7DA /* NSObject+JDFBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+JDFBlocks.h"; path = "Categories/NSObject+JDFBlocks.h"; sourceTree = "<group>"; };
+		F255A47B184E17630084E7DA /* NSObject+JDFBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JDFBlocks.m"; path = "Categories/NSObject+JDFBlocks.m"; sourceTree = "<group>"; };
 		F2DBF34517D161FA008FF27F /* NSDate+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+JDFToolkit.h"; path = "Categories/NSDate+JDFToolkit.h"; sourceTree = "<group>"; };
 		F2DBF34617D161FA008FF27F /* NSDate+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+JDFToolkit.m"; path = "Categories/NSDate+JDFToolkit.m"; sourceTree = "<group>"; };
 		F2DBF39117D1E1E4008FF27F /* libJDFToolkitStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJDFToolkitStaticLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -255,6 +258,8 @@
 				D80D89681843C01500C2BE1D /* UIView+JDFGeometry.m */,
 				D8D8612318313A8C00E6A59B /* UILabel+JDFToolkit.h */,
 				D8D8612418313A8C00E6A59B /* UILabel+JDFToolkit.m */,
+				F255A47A184E17630084E7DA /* NSObject+JDFBlocks.h */,
+				F255A47B184E17630084E7DA /* NSObject+JDFBlocks.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -390,6 +395,7 @@
 				D8D8612518313A8C00E6A59B /* UILabel+JDFToolkit.m in Sources */,
 				D823B3B917DA34B5001DCFB2 /* JDFLocationUtilities.m in Sources */,
 				D80D89691843C01500C2BE1D /* UIView+JDFGeometry.m in Sources */,
+				F255A47C184E17630084E7DA /* NSObject+JDFBlocks.m in Sources */,
 				D83FB9AF1834CC9D005EF0D9 /* JDFProjectUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
