@@ -20,4 +20,14 @@
     self.frame = frame;
 }
 
+- (void)centerYInSuperview
+{
+    CGFloat viewHeight = self.frame.size.height;
+    CGFloat superviewHeight = self.superview.frame.size.height;
+    
+    CGRect frame = self.frame;
+    frame.origin.y = (superviewHeight - viewHeight) / 2;
+    self.frame = frame;
+}
+
 @end
