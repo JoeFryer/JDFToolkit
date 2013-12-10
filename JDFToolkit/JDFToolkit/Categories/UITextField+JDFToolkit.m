@@ -14,6 +14,7 @@
 {
     self.autocorrectionType = UITextAutocorrectionTypeNo;
     self.keyboardType = UIKeyboardTypeEmailAddress;
+    self.autocapitalizationType = UITextAutocapitalizationTypeNone;
 }
 
 - (void)configureAsNameEntryField
@@ -25,6 +26,11 @@
 - (void)configureAsTelephoneNumberEntryField
 {
     self.keyboardType = UIKeyboardTypePhonePad;
+}
+
+- (void)configureAsPasswordField
+{
+    self.secureTextEntry = YES;
 }
 
 @end
