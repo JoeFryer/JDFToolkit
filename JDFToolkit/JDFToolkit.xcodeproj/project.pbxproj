@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		D809D26F187C57200073A5BA /* NSString+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = D809D26E187C57200073A5BA /* NSString+JDFToolkit.m */; };
+		D809D270187C57200073A5BA /* NSString+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = D809D26E187C57200073A5BA /* NSString+JDFToolkit.m */; };
 		D80D89691843C01500C2BE1D /* UIView+JDFGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D89681843C01500C2BE1D /* UIView+JDFGeometry.m */; };
 		D80D896A1843C01600C2BE1D /* UIView+JDFGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D89681843C01500C2BE1D /* UIView+JDFGeometry.m */; };
 		D81AC41117CF5EB000C90D88 /* UIToolbar+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = D81AC41017CF5EB000C90D88 /* UIToolbar+JDFToolkit.m */; };
@@ -71,6 +73,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D809D26D187C57200073A5BA /* NSString+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+JDFToolkit.h"; path = "Categories/NSString+JDFToolkit.h"; sourceTree = "<group>"; };
+		D809D26E187C57200073A5BA /* NSString+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+JDFToolkit.m"; path = "Categories/NSString+JDFToolkit.m"; sourceTree = "<group>"; };
 		D80D89671843C01500C2BE1D /* UIView+JDFGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+JDFGeometry.h"; path = "Categories/UIView+JDFGeometry.h"; sourceTree = "<group>"; };
 		D80D89681843C01500C2BE1D /* UIView+JDFGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+JDFGeometry.m"; path = "Categories/UIView+JDFGeometry.m"; sourceTree = "<group>"; };
 		D81AC40F17CF5EB000C90D88 /* UIToolbar+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+JDFToolkit.h"; path = "Categories/UIToolbar+JDFToolkit.h"; sourceTree = "<group>"; };
@@ -260,6 +264,8 @@
 				D8D8612418313A8C00E6A59B /* UILabel+JDFToolkit.m */,
 				F255A47A184E17630084E7DA /* NSObject+JDFBlocks.h */,
 				F255A47B184E17630084E7DA /* NSObject+JDFBlocks.m */,
+				D809D26D187C57200073A5BA /* NSString+JDFToolkit.h */,
+				D809D26E187C57200073A5BA /* NSString+JDFToolkit.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -389,6 +395,7 @@
 				F21EBE7017C6C453006774C6 /* JDFTableItem.m in Sources */,
 				F21EBE7417C7403A006774C6 /* UITextField+JDFToolkit.m in Sources */,
 				D81AC41117CF5EB000C90D88 /* UIToolbar+JDFToolkit.m in Sources */,
+				D809D26F187C57200073A5BA /* NSString+JDFToolkit.m in Sources */,
 				F2DBF34717D161FA008FF27F /* NSDate+JDFToolkit.m in Sources */,
 				F2DEE94117D29AAE001521C8 /* JDFDateFormatterCache.m in Sources */,
 				D8792C3117D634BA00171FC1 /* JDFTextView.m in Sources */,
@@ -412,6 +419,7 @@
 				F2DBF3A017D1E285008FF27F /* NSDate+JDFToolkit.m in Sources */,
 				F2DBF3A117D1E289008FF27F /* UIToolbar+JDFToolkit.m in Sources */,
 				F2DBF3A217D1E28B008FF27F /* UITextField+JDFToolkit.m in Sources */,
+				D809D270187C57200073A5BA /* NSString+JDFToolkit.m in Sources */,
 				D8792C3217D634BA00171FC1 /* JDFTextView.m in Sources */,
 				D823B3BA17DA34B5001DCFB2 /* JDFLocationUtilities.m in Sources */,
 			);
@@ -490,10 +498,12 @@
 		F21EBE6717C6C1C9006774C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JDFToolkit/JDFToolkit-Prefix.pch";
 				INFOPLIST_FILE = "JDFToolkit/JDFToolkit-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -502,10 +512,12 @@
 		F21EBE6817C6C1C9006774C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JDFToolkit/JDFToolkit-Prefix.pch";
 				INFOPLIST_FILE = "JDFToolkit/JDFToolkit-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
