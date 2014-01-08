@@ -8,7 +8,7 @@
 
 #import "JDFProjectUtilities.h"
 #import "JDFDateFormatterCache.h"
-#import "JDFLocationUtilities.m"
-#import "JDFTableItem.m"
-#import "JDFTableSection.m"
-#import "JDFTextView.m"
+#import "JDFLocationUtilities.h"
+#import "JDFTableItem.h"
+#import "JDFTableSection.h"
+#import "JDFTextView.h"
