@@ -86,6 +86,8 @@
 		D8792C2F17D634BA00171FC1 /* JDFTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDFTextView.h; path = Classes/JDFTextView.h; sourceTree = "<group>"; };
 		D8792C3017D634BA00171FC1 /* JDFTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDFTextView.m; path = Classes/JDFTextView.m; sourceTree = "<group>"; };
 		D89D48C91808215C00329229 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D8B124E2187D7EBB00EE5F72 /* JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDFToolkit.h; path = "JDFToolkit Headers/JDFToolkit.h"; sourceTree = "<group>"; };
+		D8B124E8187D82E300EE5F72 /* JDFToolkitCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDFToolkitCategories.h; sourceTree = "<group>"; };
 		D8D8612318313A8C00E6A59B /* UILabel+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+JDFToolkit.h"; path = "Categories/UILabel+JDFToolkit.h"; sourceTree = "<group>"; };
 		D8D8612418313A8C00E6A59B /* UILabel+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+JDFToolkit.m"; path = "Categories/UILabel+JDFToolkit.m"; sourceTree = "<group>"; };
 		F21EBE4917C6C1C9006774C6 /* JDFToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDFToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +173,15 @@
 			name = "General Utilities";
 			sourceTree = "<group>";
 		};
+		D8B124E1187D7E6100EE5F72 /* JDFToolkit Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D8B124E8187D82E300EE5F72 /* JDFToolkitCategories.h */,
+				D8B124E2187D7EBB00EE5F72 /* JDFToolkit.h */,
+			);
+			name = "JDFToolkit Headers";
+			sourceTree = "<group>";
+		};
 		F21EBE4017C6C1C9006774C6 = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +217,7 @@
 			children = (
 				F21EBE6917C6C2B5006774C6 /* Classes */,
 				F21EBE7117C73F90006774C6 /* Categories */,
+				D8B124E1187D7E6100EE5F72 /* JDFToolkit Headers */,
 				F21EBE5B17C6C1C9006774C6 /* JDFAppDelegate.h */,
 				F21EBE5C17C6C1C9006774C6 /* JDFAppDelegate.m */,
 				F21EBE5317C6C1C9006774C6 /* Supporting Files */,
