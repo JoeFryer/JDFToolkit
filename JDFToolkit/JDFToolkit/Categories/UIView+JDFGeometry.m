@@ -101,6 +101,19 @@
     self.frame = frame;
 }
 
+- (void)setHorizontalCentrePoint:(CGFloat)xCentre
+{
+    CGRect frame = self.frame;
+    frame.origin.x = (self.frame.size.width / (-2)) + xCentre;
+    self.frame = frame;
+}
+
+- (void)setVerticalCentrePoint:(CGFloat)yCentre
+{
+    CGRect frame = self.frame;
+    frame.origin.y = (self.frame.size.height / (-2)) + yCentre;
+}
+
 - (void)moveViewXBy:(CGFloat)xDelta
 {
     CGRect frame = self.frame;

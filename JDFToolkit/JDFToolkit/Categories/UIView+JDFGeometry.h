@@ -31,6 +31,9 @@
 - (void)centerHorizontallyInSuperview;
 - (void)centerVerticallyInSuperview;
 
+- (void)setHorizontalCentrePoint:(CGFloat)xCentre;
+- (void)setVerticalCentrePoint:(CGFloat)yCentre;
+
 - (void)moveViewXBy:(CGFloat)xDelta;
 - (void)moveViewYBy:(CGFloat)yDelta;
 - (void)changeViewWidthBy:(CGFloat)widthDelta;
