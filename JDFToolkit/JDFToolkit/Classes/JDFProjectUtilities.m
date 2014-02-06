@@ -27,7 +27,7 @@
 {
     NSString *appVersion = [JDFProjectUtilities appVersion];
     NSString *appBuildNumber = [JDFProjectUtilities appBuildNumber];
-    return [NSString stringWithFormat:@"%@.%@", appVersion, appBuildNumber];
+    return [NSString stringWithFormat:@"%@ (%@)", appVersion, appBuildNumber];
 }
 
 
