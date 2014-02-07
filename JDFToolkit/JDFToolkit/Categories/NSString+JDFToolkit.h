@@ -10,6 +10,13 @@
 
 @interface NSString (JDFToolkit)
 
+#pragma mark - General
+
+- (NSString *)reverseString;
+
+
+#pragma mark - Trimming
+
 - (NSString *)stringByTrimmingWhitespaceCharacters;
 
 - (NSString *)stringByTrimmingWhitespaceAndNewLineCharacters;
@@ -19,10 +26,5 @@
 - (NSString *)stringByTrimmingTrailingWhitespaceCharacters;
 
 - (NSString *)stringByTrimmingAdjacentSpaces;
-
-
-
-
-//- (NSString *)stringByTrimmingLeadingCharactersInSet:(NSCharacterSet *)characterSet;
 
 @end

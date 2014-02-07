@@ -10,6 +10,20 @@
 
 @implementation NSString (JDFToolkit)
 
+#pragma mark - General
+
+- (NSString *)reverseString
+{
+    NSMutableString *reversedString = [NSMutableString string];
+    [self enumerateSubstringsInRange:NSMakeRange(0, self.length) options:NSStringEnumerationByComposedCharacterSequences | NSStringEnumerationReverse usingBlock:^(NSString *substring, NSRange substringRange, NSRange enclosingRange, BOOL *stop) {
+        [reversedString appendString:substring];
+    }];
+    return reversedString;
+}
+
+
+#pragma mark - Trimming
+
 - (NSString *)stringByTrimmingWhitespaceCharacters
 {
     return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
