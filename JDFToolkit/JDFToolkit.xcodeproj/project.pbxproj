@@ -344,7 +344,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = JDF;
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = JDF;
 			};
 			buildConfigurationList = F21EBE4417C6C1C9006774C6 /* Build configuration list for PBXProject "JDFToolkit" */;
@@ -510,7 +510,6 @@
 		F21EBE6717C6C1C9006774C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JDFToolkit/JDFToolkit-Prefix.pch";
@@ -524,7 +523,6 @@
 		F21EBE6817C6C1C9006774C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JDFToolkit/JDFToolkit-Prefix.pch";
