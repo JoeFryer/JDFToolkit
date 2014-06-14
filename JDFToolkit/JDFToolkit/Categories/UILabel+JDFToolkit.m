@@ -8,37 +8,48 @@
 
 #import "UILabel+JDFToolkit.h"
 
+// Toolkit
+#import "JDFToolkitCategories.h"
+
+
 @implementation UILabel (JDFToolkit)
 
 - (void)resizeHeightToFitTextContents
 {
     self.numberOfLines = 0;
-    CGRect rect = [self expectedFrameForResizingToFitContents];
-    CGSize size = rect.size;
-    CGRect newFrame = [self frame];
-    newFrame.size = size;
-    [self setFrame:newFrame];
+    if (self.text.length < 1) {
+        return;
+    }
+    [self setFrameHeight:[self requiredHeightToFitContents]];
 }
 
 - (void)resizeWidthToFitTextContents
 {
-    float width = [self expectedWidthForResizingToFitContents];
-    CGRect newFrame = [self frame];
-    newFrame.size.width = width;
-    [self setFrame:newFrame];
+    self.numberOfLines = 0;
+    if (self.text.length < 1) {
+        return;
+    }
+    [self setFrameWidth:[self requiredWidthToFitContents]];
 }
 
-
-- (float)expectedWidthForResizingToFitContents
+- (CGFloat)requiredHeightToFitContents
 {
-    [self setNumberOfLines:1];
-    CGSize expectedSize = [self.text sizeWithAttributes:@{NSFontAttributeName: self.font}];
-    return expectedSize.width;
+    if (self.text.length < 1) {
+        return 0.0f;
+    }
+    NSAttributedString *attributedText = [[NSAttributedString alloc] initWithString:self.text attributes:@{NSFontAttributeName: self.font}];
+    CGRect rect = [attributedText boundingRectWithSize:CGSizeMake(self.frame.size.width, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin context:nil];
+    return ceilf(rect.size.height);
 }
 
-- (CGRect)expectedFrameForResizingToFitContents
+- (CGFloat)requiredWidthToFitContents
 {
-    return [self.text boundingRectWithSize:CGSizeMake(self.frame.size.width, 9999.0f) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName: self.font} context:nil];
+    if (self.text.length < 1) {
+        return 0.0f;
+    }
+    NSAttributedString *attributedText = [[NSAttributedString alloc] initWithString:self.text attributes:@{NSFontAttributeName: self.font}];
+    CGRect rect = [attributedText boundingRectWithSize:CGSizeMake(CGFLOAT_MAX, self.frame.size.height) options:NSStringDrawingUsesLineFragmentOrigin context:nil];
+    return ceilf(rect.size.width);
 }
 
 @end

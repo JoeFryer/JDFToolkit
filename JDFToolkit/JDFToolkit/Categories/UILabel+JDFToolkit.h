@@ -12,5 +12,7 @@
 
 - (void)resizeHeightToFitTextContents;
 - (void)resizeWidthToFitTextContents;
+- (CGFloat)requiredHeightToFitContents;
+- (CGFloat)requiredWidthToFitContents;
 
 @end
