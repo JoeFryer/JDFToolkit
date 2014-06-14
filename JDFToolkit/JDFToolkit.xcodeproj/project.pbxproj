@@ -47,6 +47,10 @@
 		F21EBE7017C6C453006774C6 /* JDFTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F21EBE6F17C6C453006774C6 /* JDFTableItem.m */; };
 		F21EBE7417C7403A006774C6 /* UITextField+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F21EBE7317C7403A006774C6 /* UITextField+JDFToolkit.m */; };
 		F255A47C184E17630084E7DA /* NSObject+JDFBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = F255A47B184E17630084E7DA /* NSObject+JDFBlocks.m */; };
+		F2CDB0C8194CC9B600F22707 /* JDFVersionComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CDB0C7194CC9B600F22707 /* JDFVersionComparator.m */; };
+		F2CDB0CB194CCA0400F22707 /* UITableViewController+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CDB0CA194CCA0400F22707 /* UITableViewController+JDFToolkit.m */; };
+		F2CDB0CE194CCA1200F22707 /* UIView+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CDB0CD194CCA1200F22707 /* UIView+JDFToolkit.m */; };
+		F2CDB0D1194CCA2C00F22707 /* UIViewController+JDFTransitionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CDB0D0194CCA2C00F22707 /* UIViewController+JDFTransitionAdditions.m */; };
 		F2DBF34717D161FA008FF27F /* NSDate+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DBF34617D161FA008FF27F /* NSDate+JDFToolkit.m */; };
 		F2DBF39217D1E1E4008FF27F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21EBE4E17C6C1C9006774C6 /* Foundation.framework */; };
 		F2DBF39717D1E1E4008FF27F /* JDFToolkitStaticLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F2DBF39617D1E1E4008FF27F /* JDFToolkitStaticLibrary.h */; };
@@ -111,6 +115,14 @@
 		F21EBE7317C7403A006774C6 /* UITextField+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+JDFToolkit.m"; path = "Categories/UITextField+JDFToolkit.m"; sourceTree = "<group>"; };
 		F255A47A184E17630084E7DA /* NSObject+JDFBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+JDFBlocks.h"; path = "Categories/NSObject+JDFBlocks.h"; sourceTree = "<group>"; };
 		F255A47B184E17630084E7DA /* NSObject+JDFBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JDFBlocks.m"; path = "Categories/NSObject+JDFBlocks.m"; sourceTree = "<group>"; };
+		F2CDB0C6194CC9B600F22707 /* JDFVersionComparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDFVersionComparator.h; path = Classes/JDFVersionComparator.h; sourceTree = "<group>"; };
+		F2CDB0C7194CC9B600F22707 /* JDFVersionComparator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDFVersionComparator.m; path = Classes/JDFVersionComparator.m; sourceTree = "<group>"; };
+		F2CDB0C9194CCA0400F22707 /* UITableViewController+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableViewController+JDFToolkit.h"; path = "Categories/UITableViewController+JDFToolkit.h"; sourceTree = "<group>"; };
+		F2CDB0CA194CCA0400F22707 /* UITableViewController+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableViewController+JDFToolkit.m"; path = "Categories/UITableViewController+JDFToolkit.m"; sourceTree = "<group>"; };
+		F2CDB0CC194CCA1200F22707 /* UIView+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+JDFToolkit.h"; path = "Categories/UIView+JDFToolkit.h"; sourceTree = "<group>"; };
+		F2CDB0CD194CCA1200F22707 /* UIView+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+JDFToolkit.m"; path = "Categories/UIView+JDFToolkit.m"; sourceTree = "<group>"; };
+		F2CDB0CF194CCA2C00F22707 /* UIViewController+JDFTransitionAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+JDFTransitionAdditions.h"; path = "Categories/UIViewController+JDFTransitionAdditions.h"; sourceTree = "<group>"; };
+		F2CDB0D0194CCA2C00F22707 /* UIViewController+JDFTransitionAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+JDFTransitionAdditions.m"; path = "Categories/UIViewController+JDFTransitionAdditions.m"; sourceTree = "<group>"; };
 		F2DBF34517D161FA008FF27F /* NSDate+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+JDFToolkit.h"; path = "Categories/NSDate+JDFToolkit.h"; sourceTree = "<group>"; };
 		F2DBF34617D161FA008FF27F /* NSDate+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+JDFToolkit.m"; path = "Categories/NSDate+JDFToolkit.m"; sourceTree = "<group>"; };
 		F2DBF39117D1E1E4008FF27F /* libJDFToolkitStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJDFToolkitStaticLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +177,8 @@
 		D882271F17CE57FB009348FE /* General Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				F2CDB0C6194CC9B600F22707 /* JDFVersionComparator.h */,
+				F2CDB0C7194CC9B600F22707 /* JDFVersionComparator.m */,
 				D83FB9AD1834CC9D005EF0D9 /* JDFProjectUtilities.h */,
 				D83FB9AE1834CC9D005EF0D9 /* JDFProjectUtilities.m */,
 				F2DEE93F17D29AAE001521C8 /* JDFDateFormatterCache.h */,
@@ -278,6 +292,12 @@
 				F255A47B184E17630084E7DA /* NSObject+JDFBlocks.m */,
 				D809D26D187C57200073A5BA /* NSString+JDFToolkit.h */,
 				D809D26E187C57200073A5BA /* NSString+JDFToolkit.m */,
+				F2CDB0C9194CCA0400F22707 /* UITableViewController+JDFToolkit.h */,
+				F2CDB0CA194CCA0400F22707 /* UITableViewController+JDFToolkit.m */,
+				F2CDB0CC194CCA1200F22707 /* UIView+JDFToolkit.h */,
+				F2CDB0CD194CCA1200F22707 /* UIView+JDFToolkit.m */,
+				F2CDB0CF194CCA2C00F22707 /* UIViewController+JDFTransitionAdditions.h */,
+				F2CDB0D0194CCA2C00F22707 /* UIViewController+JDFTransitionAdditions.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -404,12 +424,16 @@
 				F21EBE5917C6C1C9006774C6 /* main.m in Sources */,
 				F21EBE5D17C6C1C9006774C6 /* JDFAppDelegate.m in Sources */,
 				F21EBE6D17C6C3AC006774C6 /* JDFTableSection.m in Sources */,
+				F2CDB0C8194CC9B600F22707 /* JDFVersionComparator.m in Sources */,
 				F21EBE7017C6C453006774C6 /* JDFTableItem.m in Sources */,
 				F21EBE7417C7403A006774C6 /* UITextField+JDFToolkit.m in Sources */,
 				D81AC41117CF5EB000C90D88 /* UIToolbar+JDFToolkit.m in Sources */,
 				D809D26F187C57200073A5BA /* NSString+JDFToolkit.m in Sources */,
 				F2DBF34717D161FA008FF27F /* NSDate+JDFToolkit.m in Sources */,
 				F2DEE94117D29AAE001521C8 /* JDFDateFormatterCache.m in Sources */,
+				F2CDB0CE194CCA1200F22707 /* UIView+JDFToolkit.m in Sources */,
+				F2CDB0D1194CCA2C00F22707 /* UIViewController+JDFTransitionAdditions.m in Sources */,
+				F2CDB0CB194CCA0400F22707 /* UITableViewController+JDFToolkit.m in Sources */,
 				D8792C3117D634BA00171FC1 /* JDFTextView.m in Sources */,
 				D8D8612518313A8C00E6A59B /* UILabel+JDFToolkit.m in Sources */,
 				D823B3B917DA34B5001DCFB2 /* JDFLocationUtilities.m in Sources */,

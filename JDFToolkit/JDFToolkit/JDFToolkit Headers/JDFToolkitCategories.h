@@ -13,3 +13,6 @@
 #import "UITextField+JDFToolkit.h"
 #import "UIToolbar+JDFToolkit.h"
 #import "UIView+JDFGeometry.h"
+#import "UITableViewController+JDFToolkit.h"
+#import "UIView+JDFToolkit.h"
+#import "UIViewController+JDFTransitionAdditions.h"
