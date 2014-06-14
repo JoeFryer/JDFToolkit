@@ -24,12 +24,16 @@ typedef NS_ENUM(NSInteger, JDFCellType) {
     JDFCellTypeDateInput,
     JDFCellTypeSliderControl,
     JDFCellTypeCurrencyEntry,
-    JDFCellTypeSwitchCell
+    JDFCellTypeSwitchCell,
+    JDFCellTypeDetailCell,
+    JDFCellTypeCountCell
 };
 
 @interface JDFTableItem : NSObject
 
 @property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSString *subtitle;
+@property (nonatomic, strong) UIImage *image;
 @property (nonatomic, strong) NSString *value;
 @property (nonatomic) JDFCellType cellType;
 

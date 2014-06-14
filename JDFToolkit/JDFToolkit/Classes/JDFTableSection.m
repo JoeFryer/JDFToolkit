@@ -51,7 +51,17 @@
 
 - (BOOL)addTableItemsWithTitles:(NSArray *)titles cellType:(JDFCellType)cellType
 {
-    NSArray *newTableItems = [JDFTableSection arrayOfTableItemsWithTitles:titles cellType:cellType];
+    return [self addTableItemsWithTitles:titles subtitles:nil images:nil cellType:cellType];
+}
+
+- (BOOL)addTableItemsWithTitles:(NSArray *)titles subtitles:(NSArray *)subtitles images:(NSArray *)images cellType:(JDFCellType)cellType
+{
+    return [self addTableItemsWithTitles:titles subtitles:subtitles images:images values:nil cellType:cellType];
+}
+
+- (BOOL)addTableItemsWithTitles:(NSArray *)titles subtitles:(NSArray *)subtitles images:(NSArray *)images values:(NSArray *)values cellType:(JDFCellType)cellType
+{
+    NSArray *newTableItems = [JDFTableSection arrayOfTableItemsWithTitles:titles subtitles:subtitles images:images values:values cellType:cellType];
     if (newTableItems) {
         NSMutableArray *tableItems = [self.rows mutableCopy];
         [tableItems addObjectsFromArray:newTableItems];
@@ -65,16 +75,33 @@
 
 #pragma mark - Class Methods
 
-+ (NSArray *)arrayOfTableItemsWithTitles:(NSArray *)titles cellType:(JDFCellType)cellType
++ (NSArray *)arrayOfTableItemsWithTitles:(NSArray *)titles subtitles:(NSArray *)subtitles images:(NSArray *)images values:(NSArray *)values cellType:(JDFCellType)cellType
 {
+    if (subtitles && subtitles.count != titles.count) {
+        NSLog(@"**JDFToolkit** Error in: %s. \n Count of Titles and Subtitles do not match. Returning nil.", __PRETTY_FUNCTION__);
+        return nil;
+    }
+    if (images && images.count != titles.count) {
+        NSLog(@"**JDFToolkit** Error in: %s. \n Count of Titles and Images do not match. Returning nil.", __PRETTY_FUNCTION__);
+        return nil;
+    }
+    if (values && values.count != titles.count) {
+        NSLog(@"**JDFToolkit** Error in: %s. \n Count of Titles and Values do not match. Returning nil.", __PRETTY_FUNCTION__);
+        return nil;
+    }
+    
     NSMutableArray *tableItems = [[NSMutableArray alloc] init];
-    for (id obj in titles) {
-        if ([obj isKindOfClass:[NSString class]]) {
-            JDFTableItem *tableItem = [[JDFTableItem alloc] initWithTitle:(NSString *)obj cellType:cellType];
-            [tableItems addObject:tableItem];
-        } else {
-            return nil;
-        }
+    NSInteger i = 0;
+    for (NSString *title in titles) {
+        NSString *subtitle = subtitles[i];
+        UIImage *image = images[i];
+        NSString *value = values[i];
+        JDFTableItem *tableItem = [[JDFTableItem alloc] initWithTitle:title cellType:cellType];
+        tableItem.subtitle = subtitle;
+        tableItem.image = image;
+        tableItem.value = value;
+        [tableItems addObject:tableItem];
+        i++;
     }
     return [NSArray arrayWithArray:tableItems];
 }

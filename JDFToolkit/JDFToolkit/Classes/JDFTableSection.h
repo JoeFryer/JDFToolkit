@@ -27,8 +27,10 @@
 #pragma mark - Convenience
 - (NSInteger)rowsCount;
 - (BOOL)addTableItemsWithTitles:(NSArray *)titles cellType:(JDFCellType)cellType;
+- (BOOL)addTableItemsWithTitles:(NSArray *)titles subtitles:(NSArray *)subtitles images:(NSArray *)images cellType:(JDFCellType)cellType;
+- (BOOL)addTableItemsWithTitles:(NSArray *)titles subtitles:(NSArray *)subtitles images:(NSArray *)images values:(NSArray *)values cellType:(JDFCellType)cellType;
 
 #pragma mark - Class Methods
-+ (NSArray *)arrayOfTableItemsWithTitles:(NSArray *)titles cellType:(JDFCellType)cellType;
++ (NSArray *)arrayOfTableItemsWithTitles:(NSArray *)titles subtitles:(NSArray *)subtitles images:(NSArray *)images values:(NSArray *)values cellType:(JDFCellType)cellType;
 
 @end
