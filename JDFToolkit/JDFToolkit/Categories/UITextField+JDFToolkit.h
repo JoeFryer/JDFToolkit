@@ -13,5 +13,6 @@
 - (void)configureAsEmailField;
 - (void)configureAsNameEntryField;
 - (void)configureAsTelephoneNumberEntryField;
+- (void)configureAsPasswordEntryField;
 
 @end

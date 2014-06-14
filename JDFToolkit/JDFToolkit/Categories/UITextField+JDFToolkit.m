@@ -28,7 +28,7 @@
     self.keyboardType = UIKeyboardTypePhonePad;
 }
 
-- (void)configureAsPasswordField
+- (void)configureAsPasswordEntryField
 {
     self.secureTextEntry = YES;
 }
