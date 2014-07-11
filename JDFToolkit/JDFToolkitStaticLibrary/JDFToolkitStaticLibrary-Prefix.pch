@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'JDFToolkitStaticLibrary' target in the 'JDFToolkitStaticLibrary' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-#endif
