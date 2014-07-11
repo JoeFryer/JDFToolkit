@@ -1,15 +1,14 @@
 # JDFToolkit
 
-[![CI Status](http://img.shields.io/travis/Joe Fryer/JDFToolkit.svg?style=flat)](https://travis-ci.org/Joe Fryer/JDFToolkit)
 [![Version](https://img.shields.io/cocoapods/v/JDFToolkit.svg?style=flat)](http://cocoadocs.org/docsets/JDFToolkit)
 [![License](https://img.shields.io/cocoapods/l/JDFToolkit.svg?style=flat)](http://cocoadocs.org/docsets/JDFToolkit)
 [![Platform](https://img.shields.io/cocoapods/p/JDFToolkit.svg?style=flat)](http://cocoadocs.org/docsets/JDFToolkit)
 
+A Toolkit of simple classes and categories for common tasks on iOS. JDFToolkit will not try to be an everything-but-the-kitchen-sink library; it is meant to be for common (and mostly simple) stuff.
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
