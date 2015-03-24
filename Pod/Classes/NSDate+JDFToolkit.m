@@ -120,7 +120,7 @@
 - (NSComparisonResult)compareWithDateIgnoringTime:(NSDate *)date
 {
     NSCalendar *calender = [NSCalendar currentCalendar];
-    NSInteger comps = (NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit);
+    NSInteger comps = (NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear);
     
     NSDateComponents *date1Comps = [calender components:comps fromDate:self];
     NSDateComponents *date2Comps = [calender components:comps fromDate:date];
