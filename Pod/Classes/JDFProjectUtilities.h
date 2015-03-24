@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  JDFProjectUtilities provides some convenience methods for getting the app name/version number/etc.
+ */
 @interface JDFProjectUtilities : NSObject
 
 #pragma mark - Version Numbers
