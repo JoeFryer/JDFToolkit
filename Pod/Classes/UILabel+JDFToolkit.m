@@ -20,7 +20,9 @@
     if (self.text.length < 1) {
         return;
     }
-    [self setFrameHeight:[self requiredHeightToFitContents]];
+    CGRect frame = self.frame;
+    frame.size.height = [self requiredHeightToFitContents];
+    self.frame = frame;
 }
 
 - (void)resizeWidthToFitTextContents
@@ -29,7 +31,9 @@
     if (self.text.length < 1) {
         return;
     }
-    [self setFrameWidth:[self requiredWidthToFitContents]];
+    CGRect frame = self.frame;
+    frame.size.width = [self requiredWidthToFitContents];
+    self.frame = frame;
 }
 
 - (CGFloat)requiredHeightToFitContents

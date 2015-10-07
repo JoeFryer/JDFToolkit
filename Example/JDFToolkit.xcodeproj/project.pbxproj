@@ -37,7 +37,6 @@
 		F2F9C0331970A630000AA40E /* UILabel+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9C01C1970A630000AA40E /* UILabel+JDFToolkit.m */; };
 		F2F9C0351970A630000AA40E /* UITextField+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9C0201970A630000AA40E /* UITextField+JDFToolkit.m */; };
 		F2F9C0361970A630000AA40E /* UIToolbar+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9C0221970A630000AA40E /* UIToolbar+JDFToolkit.m */; };
-		F2F9C0371970A630000AA40E /* UIView+JDFGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9C0241970A630000AA40E /* UIView+JDFGeometry.m */; };
 		F2F9C0381970A630000AA40E /* UIView+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9C0261970A630000AA40E /* UIView+JDFToolkit.m */; };
 		F2F9C0391970A630000AA40E /* UIViewController+JDFTransitionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9C0281970A630000AA40E /* UIViewController+JDFTransitionAdditions.m */; };
 /* End PBXBuildFile section */
@@ -109,8 +108,6 @@
 		F2F9C0201970A630000AA40E /* UITextField+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+JDFToolkit.m"; path = "../../Pod/Classes/UITextField+JDFToolkit.m"; sourceTree = "<group>"; };
 		F2F9C0211970A630000AA40E /* UIToolbar+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+JDFToolkit.h"; path = "../../Pod/Classes/UIToolbar+JDFToolkit.h"; sourceTree = "<group>"; };
 		F2F9C0221970A630000AA40E /* UIToolbar+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+JDFToolkit.m"; path = "../../Pod/Classes/UIToolbar+JDFToolkit.m"; sourceTree = "<group>"; };
-		F2F9C0231970A630000AA40E /* UIView+JDFGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+JDFGeometry.h"; path = "../../Pod/Classes/UIView+JDFGeometry.h"; sourceTree = "<group>"; };
-		F2F9C0241970A630000AA40E /* UIView+JDFGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+JDFGeometry.m"; path = "../../Pod/Classes/UIView+JDFGeometry.m"; sourceTree = "<group>"; };
 		F2F9C0251970A630000AA40E /* UIView+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+JDFToolkit.h"; path = "../../Pod/Classes/UIView+JDFToolkit.h"; sourceTree = "<group>"; };
 		F2F9C0261970A630000AA40E /* UIView+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+JDFToolkit.m"; path = "../../Pod/Classes/UIView+JDFToolkit.m"; sourceTree = "<group>"; };
 		F2F9C0271970A630000AA40E /* UIViewController+JDFTransitionAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+JDFTransitionAdditions.h"; path = "../../Pod/Classes/UIViewController+JDFTransitionAdditions.h"; sourceTree = "<group>"; };
@@ -265,8 +262,6 @@
 				F2F9C0201970A630000AA40E /* UITextField+JDFToolkit.m */,
 				F2F9C0211970A630000AA40E /* UIToolbar+JDFToolkit.h */,
 				F2F9C0221970A630000AA40E /* UIToolbar+JDFToolkit.m */,
-				F2F9C0231970A630000AA40E /* UIView+JDFGeometry.h */,
-				F2F9C0241970A630000AA40E /* UIView+JDFGeometry.m */,
 				F2F9C0251970A630000AA40E /* UIView+JDFToolkit.h */,
 				F2F9C0261970A630000AA40E /* UIView+JDFToolkit.m */,
 				F2F9C0271970A630000AA40E /* UIViewController+JDFTransitionAdditions.h */,
@@ -453,7 +448,6 @@
 				6003F5A7195388D20070C39A /* JDFViewController.m in Sources */,
 				F2F9C02D1970A630000AA40E /* JDFTableSection.m in Sources */,
 				F2F9C0301970A630000AA40E /* NSDate+JDFToolkit.m in Sources */,
-				F2F9C0371970A630000AA40E /* UIView+JDFGeometry.m in Sources */,
 				F2F9C02F1970A630000AA40E /* JDFVersionComparator.m in Sources */,
 				F2F9C0321970A630000AA40E /* NSString+JDFToolkit.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
