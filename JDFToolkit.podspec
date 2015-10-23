@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JDFToolkit"
-  s.version          = "1.1.1"
+  s.version          = "1.2"
   s.summary          = "A simple Toolkit of Classes and Categories for common tasks when developing for iOS."
   s.description      = "JDFToolkit is a simple Toolkit of Classes and Categories for common tasks when developing for iOS."
   s.homepage         = "https://github.com/JoeFryer/JDFToolkit"

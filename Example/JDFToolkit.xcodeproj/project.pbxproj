@@ -35,10 +35,8 @@
 		F2F9C0311970A630000AA40E /* NSObject+JDFBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9C0181970A630000AA40E /* NSObject+JDFBlocks.m */; };
 		F2F9C0321970A630000AA40E /* NSString+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9C01A1970A630000AA40E /* NSString+JDFToolkit.m */; };
 		F2F9C0331970A630000AA40E /* UILabel+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9C01C1970A630000AA40E /* UILabel+JDFToolkit.m */; };
-		F2F9C0341970A630000AA40E /* UITableViewController+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9C01E1970A630000AA40E /* UITableViewController+JDFToolkit.m */; };
 		F2F9C0351970A630000AA40E /* UITextField+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9C0201970A630000AA40E /* UITextField+JDFToolkit.m */; };
 		F2F9C0361970A630000AA40E /* UIToolbar+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9C0221970A630000AA40E /* UIToolbar+JDFToolkit.m */; };
-		F2F9C0371970A630000AA40E /* UIView+JDFGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9C0241970A630000AA40E /* UIView+JDFGeometry.m */; };
 		F2F9C0381970A630000AA40E /* UIView+JDFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9C0261970A630000AA40E /* UIView+JDFToolkit.m */; };
 		F2F9C0391970A630000AA40E /* UIViewController+JDFTransitionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9C0281970A630000AA40E /* UIViewController+JDFTransitionAdditions.m */; };
 /* End PBXBuildFile section */
@@ -106,14 +104,10 @@
 		F2F9C01A1970A630000AA40E /* NSString+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+JDFToolkit.m"; path = "../../Pod/Classes/NSString+JDFToolkit.m"; sourceTree = "<group>"; };
 		F2F9C01B1970A630000AA40E /* UILabel+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+JDFToolkit.h"; path = "../../Pod/Classes/UILabel+JDFToolkit.h"; sourceTree = "<group>"; };
 		F2F9C01C1970A630000AA40E /* UILabel+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+JDFToolkit.m"; path = "../../Pod/Classes/UILabel+JDFToolkit.m"; sourceTree = "<group>"; };
-		F2F9C01D1970A630000AA40E /* UITableViewController+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableViewController+JDFToolkit.h"; path = "../../Pod/Classes/UITableViewController+JDFToolkit.h"; sourceTree = "<group>"; };
-		F2F9C01E1970A630000AA40E /* UITableViewController+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableViewController+JDFToolkit.m"; path = "../../Pod/Classes/UITableViewController+JDFToolkit.m"; sourceTree = "<group>"; };
 		F2F9C01F1970A630000AA40E /* UITextField+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+JDFToolkit.h"; path = "../../Pod/Classes/UITextField+JDFToolkit.h"; sourceTree = "<group>"; };
 		F2F9C0201970A630000AA40E /* UITextField+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+JDFToolkit.m"; path = "../../Pod/Classes/UITextField+JDFToolkit.m"; sourceTree = "<group>"; };
 		F2F9C0211970A630000AA40E /* UIToolbar+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+JDFToolkit.h"; path = "../../Pod/Classes/UIToolbar+JDFToolkit.h"; sourceTree = "<group>"; };
 		F2F9C0221970A630000AA40E /* UIToolbar+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+JDFToolkit.m"; path = "../../Pod/Classes/UIToolbar+JDFToolkit.m"; sourceTree = "<group>"; };
-		F2F9C0231970A630000AA40E /* UIView+JDFGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+JDFGeometry.h"; path = "../../Pod/Classes/UIView+JDFGeometry.h"; sourceTree = "<group>"; };
-		F2F9C0241970A630000AA40E /* UIView+JDFGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+JDFGeometry.m"; path = "../../Pod/Classes/UIView+JDFGeometry.m"; sourceTree = "<group>"; };
 		F2F9C0251970A630000AA40E /* UIView+JDFToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+JDFToolkit.h"; path = "../../Pod/Classes/UIView+JDFToolkit.h"; sourceTree = "<group>"; };
 		F2F9C0261970A630000AA40E /* UIView+JDFToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+JDFToolkit.m"; path = "../../Pod/Classes/UIView+JDFToolkit.m"; sourceTree = "<group>"; };
 		F2F9C0271970A630000AA40E /* UIViewController+JDFTransitionAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+JDFTransitionAdditions.h"; path = "../../Pod/Classes/UIViewController+JDFTransitionAdditions.h"; sourceTree = "<group>"; };
@@ -264,14 +258,10 @@
 				F2F9C01A1970A630000AA40E /* NSString+JDFToolkit.m */,
 				F2F9C01B1970A630000AA40E /* UILabel+JDFToolkit.h */,
 				F2F9C01C1970A630000AA40E /* UILabel+JDFToolkit.m */,
-				F2F9C01D1970A630000AA40E /* UITableViewController+JDFToolkit.h */,
-				F2F9C01E1970A630000AA40E /* UITableViewController+JDFToolkit.m */,
 				F2F9C01F1970A630000AA40E /* UITextField+JDFToolkit.h */,
 				F2F9C0201970A630000AA40E /* UITextField+JDFToolkit.m */,
 				F2F9C0211970A630000AA40E /* UIToolbar+JDFToolkit.h */,
 				F2F9C0221970A630000AA40E /* UIToolbar+JDFToolkit.m */,
-				F2F9C0231970A630000AA40E /* UIView+JDFGeometry.h */,
-				F2F9C0241970A630000AA40E /* UIView+JDFGeometry.m */,
 				F2F9C0251970A630000AA40E /* UIView+JDFToolkit.h */,
 				F2F9C0261970A630000AA40E /* UIView+JDFToolkit.m */,
 				F2F9C0271970A630000AA40E /* UIViewController+JDFTransitionAdditions.h */,
@@ -329,7 +319,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = JDF;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Joe Fryer";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -452,14 +442,12 @@
 				F2F9C0291970A630000AA40E /* JDFDateFormatterCache.m in Sources */,
 				F2F9C02C1970A630000AA40E /* JDFTableItem.m in Sources */,
 				F2F9C02A1970A630000AA40E /* JDFLocationUtilities.m in Sources */,
-				F2F9C0341970A630000AA40E /* UITableViewController+JDFToolkit.m in Sources */,
 				F2F9C0331970A630000AA40E /* UILabel+JDFToolkit.m in Sources */,
 				F2F9C02E1970A630000AA40E /* JDFTextView.m in Sources */,
 				6003F59E195388D20070C39A /* JDFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JDFViewController.m in Sources */,
 				F2F9C02D1970A630000AA40E /* JDFTableSection.m in Sources */,
 				F2F9C0301970A630000AA40E /* NSDate+JDFToolkit.m in Sources */,
-				F2F9C0371970A630000AA40E /* UIView+JDFGeometry.m in Sources */,
 				F2F9C02F1970A630000AA40E /* JDFVersionComparator.m in Sources */,
 				F2F9C0321970A630000AA40E /* NSString+JDFToolkit.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -541,6 +529,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -604,7 +593,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JDFToolkit/JDFToolkit-Prefix.pch";
 				INFOPLIST_FILE = "JDFToolkit/JDFToolkit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -619,7 +609,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JDFToolkit/JDFToolkit-Prefix.pch";
 				INFOPLIST_FILE = "JDFToolkit/JDFToolkit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -642,6 +633,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -661,6 +653,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

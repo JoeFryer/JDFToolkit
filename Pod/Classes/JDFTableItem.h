@@ -36,6 +36,7 @@ typedef NS_ENUM(NSInteger, JDFCellType) {
 @property (nonatomic, strong) UIImage *image;
 @property (nonatomic, strong) NSString *value;
 @property (nonatomic) JDFCellType cellType;
+@property (nonatomic) id dataObject;
 
 - (id)initWithTitle:(NSString *)title cellType:(JDFCellType)cellType;
 
