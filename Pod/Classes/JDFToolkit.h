@@ -9,7 +9,5 @@
 #import "JDFProjectUtilities.h"
 #import "JDFDateFormatterCache.h"
 #import "JDFLocationUtilities.h"
-#import "JDFTableItem.h"
-#import "JDFTableSection.h"
 #import "JDFTextView.h"
 #import "JDFDateFormatterCache.h"
